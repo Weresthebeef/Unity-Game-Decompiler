@@ -10,7 +10,6 @@ This is a thin wrapper around ugd.cli. Run with:
     python -m ugd.cli [options] path
 """
 import sys
-
 from ugd.cli import main
 
 if __name__ == '__main__':

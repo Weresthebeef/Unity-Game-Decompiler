@@ -3,10 +3,9 @@ Mono IL to C# decompiler - FULL IMPLEMENTATION.
 Converts CIL (Common Intermediate Language) to readable, compilable C# code.
 """
 import struct
-from typing import Dict, List, Optional, Any, Tuple, Set, Union
+from typing import Dict, List, Optional, Any, Tuple, Set, Union, Callable
 from enum import Enum, auto
 from .pe import MonoAssembly, TABLE_TYPE_DEF, TABLE_METHOD, TABLE_FIELD, TABLE_PARAM, TABLE_MEMBER_REF
-
 
 # ============================================================
 # IL Opcodes - COMPLETE
